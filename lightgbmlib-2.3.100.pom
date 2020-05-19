@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.microsoft.ml.lightgbm</groupId>
+    <artifactId>lightgbmlib</artifactId>
+    <version>2.3.100</version>
+    <packaging>jar</packaging>
+
+    <name>LightGBM</name>
+    <description>A fast, distributed, high performance gradient boosting framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.</description>
+    <url>https://github.com/Microsoft/LightGBM</url>
+
+    <licenses>
+      <license>
+	<name>MIT License</name>
+	<url>http://www.opensource.org/licenses/mit-license.php</url>
+      </license>
+    </licenses>
+
+    <developers>
+      <developer>
+	<name>Ilya Matiach</name>
+	<email>ilmat@microsoft.com</email>
+	<organization>Microsoft Azure Machine Learning</organization>
+	<organizationUrl>https://github.com/Azure/mmlspark</organizationUrl>
+      </developer>
+    </developers>
+    <scm>
+      <connection>scm:git:git://github.com/Microsoft/LightGBM.git</connection>
+      <developerConnection>scm:git:ssh://github.com:Microsoft/LightGBM.git</developerConnection>
+      <url>http://github.com/Microsoft/LightGBM/tree/master</url>
+    </scm>
+</project>
